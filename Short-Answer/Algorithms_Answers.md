@@ -2,13 +2,13 @@
 
 ## Exercise I
 
-a) Run time is O(n), because of the input size of n in a while loop condition.
+a) Run time is `O(n)`, because of the input size of n in a while loop condition.
 
 
-b) Run time is O(n^2) because inner loop is dependant on the size of n, which is being used in the outer loop as well.
+b) Run time is `O(n^2)` because inner loop is dependant on the size of n, which is being used in the outer loop as well.
 
 
-c) Run time is simply O(n) because there is one iteration here (done recursively) depending on the size of input n.
+c) Run time is simply `O(n)` because there is one iteration here (done recursively) depending on the size of input n.
 
 ## Exercise II
 
@@ -21,3 +21,5 @@ c) Run time is simply O(n) because there is one iteration here (done recursively
         2.2.1 remove upper floors and start again with the step 2
 3. Terminate the process once there's one floor remaining
 4. Return broken eggs count
+
+Using this binary search algorithm has a run time complexity of `O(log n)` since it uses divide & conquer techique.
